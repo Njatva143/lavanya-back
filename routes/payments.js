@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
-// GET /api/auth
+// GET /api/payments
 router.get('/', (req, res) => {
-    res.json({ message: 'auth route working' });
+    res.json({ message: 'payments route working' });
 });
 
 module.exports = router;
